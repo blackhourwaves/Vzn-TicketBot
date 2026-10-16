@@ -1,0 +1,50 @@
+{
+  "brand": {
+    "name": "Vzn Ticket",
+    "color": 5793266,
+    "footer": "Vzn Ticket • Central de atendimento"
+  },
+  "defaults": {
+    "ticketCategoryId": "",
+    "staffRoleIds": [],
+    "logChannelId": "",
+    "transcriptChannelId": "",
+    "supportMessage": "Explique seu problema com o máximo de detalhes possível. Nossa equipe responderá assim que estiver disponível.",
+    "maxOpenTicketsPerUser": 3,
+    "closeOnCreate": false
+  },
+  "categories": [
+    {
+      "key": "support",
+      "label": "Suporte geral",
+      "description": "Dúvidas, ajuda e problemas técnicos",
+      "emoji": "🛠️",
+      "categoryId": "",
+      "staffRoleIds": []
+    },
+    {
+      "key": "billing",
+      "label": "Financeiro",
+      "description": "Pagamentos, compras e cobranças",
+      "emoji": "💳",
+      "categoryId": "",
+      "staffRoleIds": []
+    },
+    {
+      "key": "report",
+      "label": "Denúncias",
+      "description": "Reporte um problema de forma privada",
+      "emoji": "🛡️",
+      "categoryId": "",
+      "staffRoleIds": []
+    },
+    {
+      "key": "partnership",
+      "label": "Parcerias",
+      "description": "Propostas e assuntos comerciais",
+      "emoji": "🤝",
+      "categoryId": "",
+      "staffRoleIds": []
+    }
+  ]
+}

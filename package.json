@@ -1,0 +1,21 @@
+{
+  "name": "vzn-ticket",
+  "version": "1.0.0",
+  "description": "Faça bom proveito",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "deploy": "node src/deploy-commands.js",
+    "check": "node --check src/index.js && node --check src/deploy-commands.js && node --check src/handlers/interactions.js"
+  },
+  "engines": {
+    "node": ">=20.11.0"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.8.1",
+    "discord.js": "^14.26.2",
+    "dotenv": "^16.4.7"
+  }
+}
